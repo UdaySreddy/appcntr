@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.logoBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logoImage {
+  margin: 5px;
+  height: 40px;
+}
+.sectionsList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.sectionName {
+  margin: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.headContainer {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  padding: 30px;
+}
